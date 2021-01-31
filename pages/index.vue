@@ -5,7 +5,9 @@
       <h1 class="page_title">夜鼠</h1>
       <p class="page_title__ruby">-ヨネズミ-</p>
       <p class="page_descri">「夜」をテーマとしたホームページ/ツール開発を行っております。</p>
-
+    <md-avatar class="md-avatar-icon">
+      <md-icon>home</md-icon>
+    </md-avatar>
       <!-- <v-card
         elevation="1"
         class="ma-2"
@@ -29,10 +31,6 @@
 </template>
 
 <script>
-import Vue from 'vue'
-import {} from 'vue-material/dist/components' // 使うコンポーネント名のみ記載する
-import 'vue-material/dist/vue-material.min.css'
-import 'vue-material/dist/theme/default.css'
 export default {
 
 }
