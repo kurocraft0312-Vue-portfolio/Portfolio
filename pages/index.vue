@@ -6,14 +6,14 @@
         <p class="page_title__ruby">-ヨネズミ-</p>
       </section>
       <p class="page_descri">「夜」をテーマとしたホームページ/ツール開発を行っております。</p>
-      <md-card class="card_section">
+      <md-card class="card_section" v-for="card in cards" :key="card.key">
         <md-card-header class="card_section__frame">
           <md-card-media class="card_section__media">
-            <img src="@/assets/img/career.jpg" alt="アイコン1">
+            <img :src="card.image" :alt="card.alt">
           </md-card-media>
           <md-card-header-text>
             <div class="card_section__title">
-              <a href="/" class="card_section__link">業務経歴を見る</a>
+              <a :href="card.link" class="card_section__link">{{card.contents}}</a>
             </div>
           </md-card-header-text>
         </md-card-header>
@@ -28,7 +28,19 @@
 
 <script>
 export default {
-  name: 'Index'
+  name: 'Index',
+  data() {
+    return {
+      cards: [
+        {
+          image: require('@/assets/img/career.jpg'),
+          alt: 'アイコン1',
+          link: '/',
+          contents: '業務経歴を見る'
+        }
+      ]
+    }
+  }
 }
 </script>
 
