@@ -35,6 +35,7 @@ export default {
 <style scoped>
 .layout {
   margin: 0 24px;
+  overflow: hidden;
 }
 .container {
   margin: 40px auto;
