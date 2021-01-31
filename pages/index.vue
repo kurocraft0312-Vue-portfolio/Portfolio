@@ -12,19 +12,15 @@
             <img src="@/assets/img/career.jpg" alt="アイコン1">
           </md-card-media>
           <md-card-header-text>
-            <div class="card_section__title">業務経歴を見る</div>
+            <div class="card_section__title">
+              <a href="/" class="card_section__link">業務経歴を見る</a>
+            </div>
           </md-card-header-text>
         </md-card-header>
       </md-card>
-
-      <!-- <v-btn
-        elevation="1"
-        href="/contact"
-      >
-        <v-icon>mdi-email</v-icon>
-        お問い合わせ
-      </v-btn> -->
-
+      <md-button class="md-raised md-large__btn md-primary">
+        <a href="/contact" class="md-raised__link"><md-icon class="md-raised__icon">email</md-icon>お問い合わせ</a>
+      </md-button>
     </div>
   </div>
 </template>
@@ -55,6 +51,7 @@ export default {
   font-size: .8rem;
 }
 .card_section {
+  background-color: #303030;
   margin: 24px auto;
 }
 .card_section__frame {
@@ -65,5 +62,23 @@ export default {
 }
 .card_section__title {
   font-size: 1rem;
+}
+.card_section__link {
+  color: #ffffff!important;
+  text-decoration: none;
+}
+.md-large__btn {
+  height: 100%;
+}
+.md-raised__link {
+  color: #ffffff!important;
+  display: block;
+  padding: 16px;
+}
+.md-raised__link:hover {
+  text-decoration: none;
+}
+.md-raised__icon {
+  margin-right: 8px;
 }
 </style>
