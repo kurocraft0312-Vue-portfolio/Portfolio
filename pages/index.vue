@@ -1,24 +1,23 @@
 <template>
   <div>
-    <div class="layout_center container"
-    >
-      <h1 class="page_title">夜鼠</h1>
-      <p class="page_title__ruby">-ヨネズミ-</p>
+    <div class="container">
+      <section class="page_title">
+        <h1 class="page_title__text">夜鼠</h1>
+        <p class="page_title__ruby">-ヨネズミ-</p>
+      </section>
       <p class="page_descri">「夜」をテーマとしたホームページ/ツール開発を行っております。</p>
-    <md-avatar class="md-avatar-icon">
-      <md-icon>home</md-icon>
-    </md-avatar>
-      <!-- <v-card
-        elevation="1"
-        class="ma-2"
-      >
-        <v-list-item
-        >
-          <v-img></v-img>
-        </v-list-item>
-      </v-card>
+      <md-card class="card_section">
+        <md-card-header>
+          <md-card-media>
+            <img src="" alt="アイコン1">
+          </md-card-media>
+          <md-card-header-text>
+            <div class="md-title">業務経歴を見る</div>
+          </md-card-header-text>
+        </md-card-header>
+      </md-card>
 
-      <v-btn
+      <!-- <v-btn
         elevation="1"
         href="/contact"
       >
@@ -32,15 +31,27 @@
 
 <script>
 export default {
-
+  name: 'Index'
 }
 </script>
 
-<style>
-.layout_center {
+<style scoped>
+.container {
+  margin: 40px auto;
   text-align: center;
+}
+.page_title {
+  display: block;
+  margin: 24px auto;
+}
+.page_title__text {
+  font-size: 2.4rem;
 }
 .page_title__ruby {
   font-size: .8rem;
+}
+.card_section {
+  margin: 24px auto;
+  width: 50%;
 }
 </style>
