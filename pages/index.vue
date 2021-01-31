@@ -1,13 +1,12 @@
 <template>
-  <div class="mt-2">
-    <v-container
-      class="layout_center"
+  <div>
+    <div class="layout_center container"
     >
       <h1 class="page_title">夜鼠</h1>
       <p class="page_title__ruby">-ヨネズミ-</p>
       <p class="page_descri">「夜」をテーマとしたホームページ/ツール開発を行っております。</p>
 
-      <v-card
+      <!-- <v-card
         elevation="1"
         class="ma-2"
       >
@@ -23,9 +22,9 @@
       >
         <v-icon>mdi-email</v-icon>
         お問い合わせ
-      </v-btn>
+      </v-btn> -->
 
-    </v-container>
+    </div>
   </div>
 </template>
 
