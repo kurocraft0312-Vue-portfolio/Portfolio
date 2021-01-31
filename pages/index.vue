@@ -36,7 +36,25 @@ export default {
           image: require('@/assets/img/career.jpg'),
           alt: 'アイコン1',
           link: '/',
-          contents: '業務経歴を見る'
+          contents: '業務経歴'
+        },
+        {
+          image: require('@/assets/img/career.jpg'),
+          alt: 'アイコン2',
+          link: '/',
+          contents: '開発事例'
+        },
+        {
+          image: require('@/assets/img/career.jpg'),
+          alt: 'アイコン3',
+          link: '/',
+          contents: '料金表'
+        },
+        {
+          image: require('@/assets/img/career.jpg'),
+          alt: 'アイコン4',
+          link: '/',
+          contents: '開発者について'
         }
       ]
     }
