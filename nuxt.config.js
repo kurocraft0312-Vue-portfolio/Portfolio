@@ -12,7 +12,7 @@ export default {
     titleTemplate: '%s - Portfolio',
     title: 'Portfolio',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ja'
     },
     meta: [
       { charset: 'utf-8' },
@@ -26,6 +26,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    'ress'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
