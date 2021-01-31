@@ -29,6 +29,10 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import {} from 'vue-material/dist/components' // 使うコンポーネント名のみ記載する
+import 'vue-material/dist/vue-material.min.css'
+import 'vue-material/dist/theme/default.css'
 export default {
 
 }
