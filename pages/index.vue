@@ -39,19 +39,19 @@ export default {
           contents: '業務経歴'
         },
         {
-          image: require('@/assets/img/career.jpg'),
+          image: require('@/assets/img/dev.jpg'),
           alt: 'アイコン2',
           link: '/',
           contents: '開発事例'
         },
         {
-          image: require('@/assets/img/career.jpg'),
+          image: require('@/assets/img/money.jpg'),
           alt: 'アイコン3',
           link: '/',
           contents: '料金表'
         },
         {
-          image: require('@/assets/img/career.jpg'),
+          image: require('@/assets/img/human.jpg'),
           alt: 'アイコン4',
           link: '/',
           contents: '開発者について'
