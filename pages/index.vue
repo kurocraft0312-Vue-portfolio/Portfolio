@@ -18,7 +18,6 @@
           </md-card-header-text>
         </md-card-header>
       </md-card>
-      <!--  md-primary  -->
       <md-button class="md-raised md-large__btn neon-btn">
         <a href="/contact" class="md-raised__link"><md-icon class="md-raised__icon">email</md-icon>お問い合わせ</a>
       </md-button>
@@ -26,40 +25,41 @@
   </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
   name: 'Index',
   data() {
     return {
       cards: [
         {
           image: require('@/assets/img/career.jpg'),
-          alt: 'アイコン1',
-          link: '/',
+          alt: '業務経歴',
+          link: '/career',
           contents: '業務経歴'
         },
         {
           image: require('@/assets/img/dev.jpg'),
-          alt: 'アイコン2',
-          link: '/',
+          alt: '開発事例',
+          link: '/dev',
           contents: '開発事例'
         },
         {
           image: require('@/assets/img/money.jpg'),
-          alt: 'アイコン3',
-          link: '/',
+          alt: '料金表',
+          link: '/price',
           contents: '料金表'
         },
         {
           image: require('@/assets/img/human.jpg'),
-          alt: 'アイコン4',
-          link: '/',
+          alt: '開発者について',
+          link: '/about',
           contents: '開発者について'
         }
       ]
     }
   }
-}
+})
 </script>
 
 <style scoped>
