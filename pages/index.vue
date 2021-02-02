@@ -67,11 +67,6 @@ export default Vue.extend({
   margin: 0 24px;
   overflow: hidden;
 }
-.container {
-  margin: 40px auto;
-  text-align: center;
-  max-width: 64ch;
-}
 .page_title {
   display: block;
   margin: 24px auto;
