@@ -7,6 +7,9 @@
         <md-tab md-label="ツール"></md-tab>
       </md-tabs>
       <md-card class="card-sec">
+        <md-card-media>
+          <img src="ここに画像のパス" alt="画像の説明">
+        </md-card-media>
         <md-card-header class="card-sec__frame">
           <md-card-header-text>
 
@@ -22,6 +25,10 @@
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
+  data() {
+    return {
 
+    }
+  }
 })
 </script>
