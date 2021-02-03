@@ -9,7 +9,12 @@
               <time class="md-times">{{carrercard.time}}</time>
               <p class="md-descri">{{carrercard.desc}}</p>
             </section>
+            <div class="system-types">
+              <span class="system-title">種類：</span>
+              <span class="system-type" v-for="systemlist in systemlists" :key="systemlist.key">{{systemlist.systemtype}}</span>
+            </div>
             <div class="tag-lists">
+              <span class="tag-title">技術：</span>
               <span class="tag-skill" v-for="taglist in taglists" :key="taglist.key">{{taglist.skill}}</span>
             </div>
           </md-card-header-text>
@@ -30,6 +35,16 @@
   display: block;
   margin: 8px 0;
 }
+.system-types,
+.tag-lists {
+  margin: 8px 0;
+}
+.system-title,
+.tag-title {
+  color: #ffffff;
+  font-weight: bold;
+}
+.system-type,
 .tag-skill {
   background-color: #E0E0E0;
   border-radius: 4px;
@@ -50,6 +65,11 @@ export default Vue.extend({
           title: 'コーポレートサイトの構築・作成',
           time: '2020/01~2021/03',
           desc: '会社が企業活動を宣伝するために必要な'
+        }
+      ],
+      systemlists: [
+        {
+          systemtype: 'HP制作'
         }
       ],
       taglists: [
