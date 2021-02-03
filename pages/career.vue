@@ -27,6 +27,7 @@
 .card-sec {
   background-color: #303030;
   border-radius: 4px;
+  word-break: break-all;
 }
 .career-title {
   font-weight: bold;
