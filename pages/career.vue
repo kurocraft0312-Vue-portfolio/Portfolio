@@ -11,7 +11,7 @@
             </section>
             <div class="system-types">
               <span class="system-title">種類：</span>
-              <span class="system-type" v-for="systemlist in systemlists" :key="systemlist.key">{{systemlist.systemtype}}</span>
+              <span class="system-type">{{carrercard.systemtype}}</span>
             </div>
             <div class="tag-lists">
               <span class="tag-title">技術：</span>
@@ -65,11 +65,13 @@ export default Vue.extend({
         {
           title: '企業活動宣伝用サイトの構築・作成',
           time: '2020/01~2021/03',
-          desc: '会社が企業活動を宣伝するために必要なWEBサイトを作成しました。'
-        }
-      ],
-      systemlists: [
+          desc: '会社が企業活動を宣伝するために必要なWEBサイトを作成しました。',
+          systemtype: 'HP制作'
+        },
         {
+          title: '教育事業会社様の自社メディアの改修・機能開発',
+          time: '2019/11~2020/11',
+          desc: '自社で取り扱っていた教育系のWEBメディア他5サイトの運営と運営に必要なページの改善・改修・機能開発などを行いました。',
           systemtype: 'HP制作'
         }
       ],
