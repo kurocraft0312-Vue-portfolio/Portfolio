@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <div class="container">
+    <div class="container c_container">
       <section class="page_title">
         <h1 class="page_title__text">夜鼠</h1>
         <p class="page_title__ruby">-ヨネズミ-</p>
@@ -63,6 +63,9 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+.c_container {
+  text-align: center;
+}
 .layout {
   margin: 0 24px;
   overflow: hidden;
@@ -79,6 +82,7 @@ export default Vue.extend({
 }
 .card_section {
   background-color: #303030;
+  border-radius: 4px;
   margin: 24px auto;
 }
 .card_section__frame {

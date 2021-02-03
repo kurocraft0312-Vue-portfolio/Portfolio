@@ -11,9 +11,18 @@ html {
 body {
   line-height: normal;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+time {
+  color: #ffffff;
+}
 .container {
   margin: 40px auto;
-  text-align: center;
   max-width: 64ch;
 }
 </style>
