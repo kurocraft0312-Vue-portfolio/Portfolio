@@ -63,9 +63,9 @@ export default Vue.extend({
     return {
       carrercards: [
         {
-          title: 'コーポレートサイトの構築・作成',
+          title: '企業活動宣伝用サイトの構築・作成',
           time: '2020/01~2021/03',
-          desc: '会社が企業活動を宣伝するために必要な'
+          desc: '会社が企業活動を宣伝するために必要なWEBサイトを作成しました。'
         }
       ],
       systemlists: [
