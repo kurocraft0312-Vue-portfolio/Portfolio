@@ -17,6 +17,24 @@
           <md-card-content class="md-card__con">
             <p class="md-desri">夜鼠の個人活動をまとめた活動記録用サイトです。</p>
           </md-card-content>
+          <div class="production-purposes">
+            <span class="production-purposes__title">制作目的：</span>
+            <span class="production-purposes__descri">自己紹介用のサイトが古くて更新したかったから、ついでに新しく作り直しました。</span>
+          </div>
+          <div class="time-periods">
+            <span class="time-period__title">制作にかかった期間：</span>
+            <span class="time-period__day">10日</span>
+          </div>
+          <div class="system-types">
+            <span class="system-title">種類：</span>
+            <span class="system-type">HP制作</span>
+            <!-- <span class="system-type">{{carrercard.systemtype}}</span> -->
+          </div>
+          <div class="tag-lists">
+            <span class="tag-title">技術：</span>
+            <span class="tag-skill">Nuxt.js</span>
+            <!-- <span class="tag-skill" v-for="taglist in taglists" :key="taglist.key">{{taglist.skill}}</span> -->
+          </div>
         </md-card-header>
       </md-card>
     </div>
