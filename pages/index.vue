@@ -25,7 +25,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import Contactbtn from '../components/Contactbtn' // エラー原因を探る
+import Contactbtn from '../components/Contactbtn.vue'
 export default Vue.extend({
   name: 'Index',
   components: {
