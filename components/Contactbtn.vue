@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="neon-btn__frame">
     <md-button class="md-raised md-large__btn neon-btn">
       <a href="/contact" class="md-raised__link"><md-icon class="md-raised__icon">email</md-icon>お問い合わせ</a>
     </md-button>
@@ -12,6 +12,9 @@ export default Vue.extend({
 })
 </script>
 <style scoped>
+.neon-btn__frame {
+  text-align: center;
+}
 .md-large__btn {
   height: 100%;
 }
