@@ -91,3 +91,6 @@ sw.*
 
 # trash
 trash/
+
+# debug
+.vscode/
